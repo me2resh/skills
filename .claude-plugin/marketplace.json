@@ -1,25 +1,47 @@
 {
   "name": "me2resh-skills",
   "description": "Agent skills by Ahmed Mohamed: research, screening and writing that show their sources.",
-  "owner": { "name": "Ahmed Mohamed", "url": "https://github.com/me2resh" },
+  "owner": {
+    "name": "Ahmed Mohamed",
+    "url": "https://github.com/me2resh"
+  },
   "plugins": [
     {
       "name": "cold-read",
-      "source": { "source": "github", "repo": "me2resh/cold-read" },
+      "source": {
+        "source": "github",
+        "repo": "me2resh/cold-read"
+      },
       "description": "Read any company from the outside before you invest, join or buy it: six-lane research from the public record, every claim marked cited, inferred or unknown.",
       "homepage": "https://me2resh.github.io/cold-read/",
       "category": "research"
     },
     {
+      "name": "field-read",
+      "source": {
+        "source": "github",
+        "repo": "me2resh/field-read"
+      },
+      "description": "Read a whole field, or compare two, from the public record over a 2 to 5 year horizon: seven lanes, three dated scenarios with falsifiers, every claim marked cited, inferred or unknown.",
+      "homepage": "https://me2resh.github.io/field-read/",
+      "category": "research"
+    },
+    {
       "name": "tayyib",
-      "source": { "source": "github", "repo": "me2resh/tayyib" },
+      "source": {
+        "source": "github",
+        "repo": "me2resh/tayyib"
+      },
       "description": "A hard halal gate for any financial product or employer, to the AAOIFI standard: one verdict, the ratios, two sources that must agree, the purification owed, the re-screen date.",
       "homepage": "https://me2resh.github.io/tayyib/",
       "category": "finance"
     },
     {
       "name": "job-apply",
-      "source": { "source": "github", "repo": "me2resh/job-apply" },
+      "source": {
+        "source": "github",
+        "repo": "me2resh/job-apply"
+      },
       "description": "Tailored job applications that are true in every line: a fact bank built once by interview, then a gated, reviewed CV, cover letter and form answers for each job ad, rendered to ATS-safe PDFs.",
       "homepage": "https://me2resh.github.io/job-apply/",
       "category": "productivity"
